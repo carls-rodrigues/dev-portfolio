@@ -1,11 +1,7 @@
-import Typography from '@/components/typography'
+import Home from '@/features/home'
 
 function App() {
-  return (
-    <>
-      <Typography>PORTFOLIO</Typography>
-    </>
-  )
+  return <Home />
 }
 
 export default App

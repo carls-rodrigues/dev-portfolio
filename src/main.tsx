@@ -1,4 +1,5 @@
 import './styles/fonts.css'
+import './i18.ts'
 
 import React from 'react'
 import ReactDOM from 'react-dom/client'
