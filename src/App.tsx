@@ -1,5 +1,11 @@
+import Typography from '@/components/typography'
+
 function App() {
-  return <></>
+  return (
+    <>
+      <Typography>PORTFOLIO</Typography>
+    </>
+  )
 }
 
 export default App

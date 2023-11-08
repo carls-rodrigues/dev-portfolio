@@ -30,7 +30,9 @@ module.exports = {
     "react-hooks/exhaustive-deps": "warn",
     "react/prop-types": "off",
     "react/react-in-jsx-scope": "off",
-    "@typescript-eslint/explicit-module-boundary-types": "off"
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "import/no-unresolved": 'off',
+    'import/no-named-as-default': 'off',
   },
 
 }
