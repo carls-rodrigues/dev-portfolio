@@ -16,6 +16,18 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Lexend', sans-serif;
     overflow-x: hidden;
     min-height: auto;
+
+    &::-webkit-scrollbar {
+      width: 1rem;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: ${({ theme }) => theme.colors.gray[100]};
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: ${({ theme }) => theme.colors.gray[700]};
+    }
   }
   a {
     text-decoration: none;
